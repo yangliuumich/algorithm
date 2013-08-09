@@ -1,0 +1,6 @@
+#compute strongly connected components
+filename = "SCC.txt"
+with open(filename) as f:
+    graph = f.read().splitlines()
+    graph = [line.split() for line in graph]
+    
