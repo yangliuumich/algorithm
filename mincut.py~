@@ -1,0 +1,3 @@
+filename = "minCut.txt"
+with open(filename) as f:
+    f.readfile.
